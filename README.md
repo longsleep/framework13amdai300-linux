@@ -24,7 +24,10 @@ so the system otherwise booted fine on the first try.
 I managed to fix all these issues pretty quickly (see below for steps). Now the new Laptop is
 ready for use.
 
-Some other things I did:
+Used it for two days now - zero blockers - works perfectly and is considerably faster in comparison
+to the Thinkpad T14 AMD (Gen 3) i was using before. 
+
+Some other things worth to note:
 
 - I installed a equalizer profile for the sound output (using easy effects).
 - I tried tlp (latest version via ppa), but ultimatively settled on power-profiles-daemon for now.
@@ -32,12 +35,19 @@ Some other things I did:
 - I am using an external display (LG UltraFine) via USB-C as sole connection and for power delivery,
   seems to work fine when the laptop is already on and booted - I have some trouble booting it with
   the lid closed and all. Further investigation follows.
+- The Laptop does not wake up from sleep automatically when simply plugging in the USB-C monitor. A
+  manual "open lid" is needed. This is annoying, also the external display is in VGA resolution or
+  when plugging it in when the Laptop is asleep. For now, I need to connect the monitor while the
+  laptop is on - if it goes to sleep while the display is connected it wakes up with 4K just fine.
+- The wifi quality is considerably impacted if the lid is closed. Since the antennas are in the lid
+  and the Framework is mostly aluminium I guess thats normal and nothing can be done. It was not a
+  problem with my Thinkpad T14. For now I 3D printed a vertical stand to operate it with lid open.
+- I tried running ollama and it seems to work fine at reasonable speed using the GPU.
 
 Some might wonder, why not update to Ubuntu 24.04 (or even 25.04 for that matter). While that might
 be fine in general, I am not ready to migrate to a past Gnome 3 desktop and my highly customized
 desktop simply cannot be replicated completely with new Gnome 3 versions. So I am stuck at 22.04
 for the time being.
-
 
 ### Fixing the laptop keyboard in ZFSBootMenu
 
